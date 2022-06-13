@@ -71,10 +71,136 @@ const genesis = { "name": "Gênesis", "content": _genesis };
 const exodo = { "name": "Exodo", "content": _exodo };
 const levitico = { "name": "Levítico", "content": _levitico };
 const numeros = { "name": "Números", "content": _numeros };
+const deuteronomio = { "name": "Deteronomio", "content": _deuteronomio };
+const josue = { "name": "Josué", "content": _josue };
+const juizes = { "name": "Juizes", "content": _juizes };
+const rute = { "name": "Rute", "content": _rute };
+const isamuel = { "name": "I Samuel", "content": _Isamuel };
+const iisamuel = { "name": "II Samuel", "content": _IIsamuel };
+const ireis = { "name": "IReis", "content": _Ireis };
+const iireis = { "name": "IIReis", "content": _IIreis };
+const icronicas = { "name": "I Crônicas", "content": _Icronicas };
+const iicronicas = { "name": "II Crônicas", "content": _IIcronicas };
+const esdras = { "name": "Esdras", "content": _esdras };
+const neemias = { "name": "Neemias", "content": _neemias };
+const ester = { "name": "Ester", "content": _ester };
+const jo = { "name": "Jó", "content": _jo };
+const salmos = { "name": "Salmos", "content": _salmos };
+const proverbios = { "name": "Provérbios", "content": _proverbios };
+const eclesiastes = { "name": "Eclesiastes", "content": _eclesiastes };
+const canticos = { "name": "Cânticos", "content": _canticos };
+const isaias = { "name": "Isaias", "content": _isaias };
+const jeremias = { "name": "Jeremias", "content": _jeremias };
+const lamentacoesdejeremias = { "name": "Lamentações de Jeremias", "content": _lamentacoesdejeremias };
+const ezequiel = { "name": "Ezequiel", "content": _ezequiel };
+const daniel = { "name": "Daniel", "content": _daniel };
+const oseias = { "name": "Oséias", "content": _oseias };
+const joel = { "name": "Joel", "content": _joel };
+const amos = { "name": "Amós", "content": _amos };
+const obadias = { "name": "Obadias", "content": _obadias };
+const jonas = { "name": "Jonas", "content": _jonas };
+const miqueias = { "name": "Miquéias", "content": _miqueias };
+const naum = { "name": "Naum", "content": _naum };
+const habacuque = { "name": "Habacuque", "content": _habacuque };
+const sofonias = { "name": "Sofonias", "content": _sofonias };
+const ageu = { "name": "Ageu", "content": _ageu };
+const zacarias = { "name": "Zacarias", "content": _zacarias };
+const malaquias = { "name": "Malaquias", "content": _malaquias };
+const mateus = { "name": "Mateus", "content": _mateus };
+const marcos = { "name": "Marcos", "content": _marcos };
+const lucas = { "name": "Lucas", "content": _lucas };
+const joao = { "name": "João", "content": _joao };
+const atos = { "name": "atos", "content": _atos };
+const romanos = { "name": "Romanos", "content": _romanos };
+const icorintios = { "name": "I Corintios", "content": _Icorintios };
+const iicorintios = { "name": "II Corintios", "content": _IIcorintios };
+const galatas = { "name": "Gálatas", "content": _galatas };
+const efesios = { "name": "Efesios", "content": _efesios };
+const filipenses = { "name": "Filipenses", "content": _filipenses };
+const colossenses = { "name": "Colossenses", "content": _colossenses };
+const itessalonicenses = { "name": "I Tessalonicenses", "content": _Itessalonicenses };
+const iitessalonicenses = { "name": "II Tessalonicenses", "content": _IItessalonicenses };
+const itimoteo = { "name": "I Timóteo", "content": _Itimoteo };
+const iitimoteo = { "name": "II Timóteo", "content": _IItimoteo };
+const tito = { "name": "Tito", "content": _tito };
+const filemom = { "name": "Filemom", "content": _filemom };
+const hebreus = { "name": "Hebreus", "content": _hebreus };
+const tiago = { "name": "Tiago", "content": _tiago };
+const ipedro = { "name": "I Pedro", "content": _Ipedro };
+const iipedro = { "name": "II Pedro", "content": _IIpedro };
+const ijoao = { "name": "I João", "content": _Ijoao };
+const iijoao = { "name": "II João", "content": _IIjoao };
+const iiijoao = { "name": "III João", "content": _IIIjoao };
+const judas = { "name": "Judas", "content": _judas };
+const apocalipse = { "name": "Apocalipse", "content": _apocalipse };
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
-  genesis
-  
+  genesis,
+  exodo,
+  levitico,
+  numeros,
+  deuteronomio,
+  josue,
+  juizes,
+  rute,
+  isamuel,
+  iisamuel,
+  ireis,
+  iireis,
+  icronicas,
+  iicronicas,
+  esdras,
+  neemias,
+  jo,
+  salmos,
+  proverbios,
+  eclesiastes,
+  canticos,
+  isaias,
+  jeremias,
+  lamentacoesdejeremias,
+  ezequiel,
+  daniel,
+  oseias,
+  joel,
+  amos,
+  obadias,
+  jonas,
+  miqueias,
+  naum,
+  habacuque,
+  sofonias,
+  ageu,
+  zacarias,
+  malaquias,
+  mateus,
+  marcos,
+  lucas,
+  joao,
+  atos,
+  romanos,
+  icorintios,
+  iicorintios,
+  galatas,
+  efesios,
+  filipenses,
+  colossenses,
+  itessalonicenses,
+  iitessalonicenses,
+  itimoteo,
+  iitimoteo,
+  tito,
+  filemom,
+  hebreus,
+  tiago,
+  ipedro,
+  iipedro,
+  ijoao,
+  iijoao,
+  iiijoao,
+  judas,
+  apocalipse
+
 ]
